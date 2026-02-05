@@ -1,0 +1,14 @@
+.task-list {
+  background: white;
+}
+
+.task-list h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.no-tasks {
+  text-align: center;
+  color: #999;
+  padding: 40px;
+}
