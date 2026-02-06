@@ -48,7 +48,7 @@ const TaskItem = ({
         <span className={`status ${task.status}`}>{task.status || 'pending'}</span>
       </div>
       <p>{task.description}</p>
-      <small>Created by: {task.email || 'Unknown'}</small>
+      <small>Created by: {user.email || 'Unknown'}</small>
       {canEdit && (
         <div className="task-actions">
           <button onClick={() => onEdit(task)} className="edit-btn">Edit</button>
