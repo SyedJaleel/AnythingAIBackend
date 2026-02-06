@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/v1';
+const API_URL = 'https://anythingaibackend.onrender.com/api/v1';
 
 const getToken = () => localStorage.getItem('token');
 
